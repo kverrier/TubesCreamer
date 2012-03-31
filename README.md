@@ -4,7 +4,7 @@
 
 ## Overview
 
-The TubesCreamer is an audacity plugin aimed at emulating the classic
+The TubesCreamer is an Audacity plug-in aimed at emulating the classic
 sound of the [Ibanez Tube Screamer](http://en.wikipedia.org/wiki/Ibanez_Tube_Screamer) overdrive pedal.
 
 ![alt](http://www.keymusic.com/gfx_productcode/81268/2/Ibanez-TS808-Vintage-Tube-Screamer-Reissue.jpg)
@@ -14,16 +14,16 @@ sound of the [Ibanez Tube Screamer](http://en.wikipedia.org/wiki/Ibanez_Tube_Scr
 ### [Audio Demo](http://soundcloud.com/k_v/tubescreamer-demo)
 
 ## Installation
-In order to install the plugin, download the [plugin file](https://github.com/downloads/kverrier/TubesCreamer/tubescreamer.ny). Copy
-the file into the audacity plugin folder located in the location of the
-audacity installation. Next, start up audacity and go the the "Effects"
+In order to install the plug-in, download the [plug-in file](https://github.com/downloads/kverrier/TubesCreamer/tubescreamer.ny). Copy
+the file into the Audacity plug-in folder located in the location of the
+Audacity installation. Next, start up Audacity and go the "Effects"
 menu in the top bar to make sure that "TubeScreamer" appears. 
 
 ## Use
 Select the desired audio region to apply the effect and go to the
-"Effects" menu in the top bar. A popup box should appear where you can
+"Effects" menu in the top bar. A pop-up box should appear where you can
 input the amount of desired gain. After choosing the desired amount
-of drive, press ok and then the audio should be changed into sound of
-going through this classic guitar pedal.
+of drive, press OK. The selected audio will now sound have the sound of
+this legendary guitar pedal.
 
 ![alt](http://i.imgur.com/JU9L2.png)
