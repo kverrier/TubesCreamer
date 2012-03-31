@@ -3,9 +3,7 @@
 The TubesCreamer is an audacity plugin aimed at emulating the classic
 sound of the ibanez Tube Screamer overdrive pedal. 
 
-This is a sample of the effect at various levels of drive:
-<audio controls="controls">
-  <source src="https://github.com/downloads/kverrier/TubesCreamer/TubesCreamer-demo.wav" type="audio/wav" />
+This is a sample of the effect at various levels of drive: [Audio Demo](TubesCreamer-demo.wav)
 
   Your browser does not support the audio tag.
 </audio>
