@@ -1,7 +1,7 @@
 ;nyquist plug-in
 ;version 1
 ;type process
-;name "TubeScreamer"
+;name "TubesCreamer"
 ;control drive "Drive" real "Amount" 50 0 100
 ;codetype sal
 ;debugflags trace
