@@ -22,4 +22,4 @@ input the amount of desired gain. After choosing the desired amount
 of drive, press ok and then the audio should be changed into sound of
 going through this classic guitar pedal.
 
-![alt](http://imgur.com/JU9L2)
+![alt](http://i.imgur.com/JU9L2.png)
