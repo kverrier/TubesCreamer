@@ -15,8 +15,6 @@ the file into the audacity plugin folder located in the location of the
 audacity installation. Next, start up audacity and go the the "Effects"
 menu in the top bar to make sure that "TubeScreamer" appears. 
 
-![alt](http://i.imgur.com/0pT52.png)
-
 ## Use
 Select the desired audio region to apply the effect and go to the
 "Effects" menu in the top bar. A popup box should appear where you can
