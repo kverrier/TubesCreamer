@@ -19,6 +19,6 @@ menu in the top bar to make sure that "TubeScreamer" appears.
 Select the desired audio region to apply the effect and go to the
 "Effects" menu in the top bar. A popup box should appear where you can
 input the amount of desired gain. After choosing the desired amount
-ofdrive, press ok and then the audio should be changed into sound of
+of drive, press ok and then the audio should be changed into sound of
 going through this classic guitar pedal.
 
