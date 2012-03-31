@@ -5,7 +5,8 @@ sound of the ibanez Tube Screamer overdrive pedal.
 
 This is a sample of the effect at various levels of drive:
 <audio controls="controls">
-  <source src="TubesCreamer-demo.wav" type="audio/wav" />
+  <source src="https://github.com/downloads/kverrier/TubesCreamer/TubesCreamer-demo.wav" type="audio/wav" />
+
   Your browser does not support the audio tag.
 </audio>
 
