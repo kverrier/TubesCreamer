@@ -1,0 +1,48 @@
+set dist-table = 
+    seq(const(-1), 
+          (1.5 * pwlv(-1, 2, 1) - 0.5 
+               * pwlv(-1, 2, 1) 
+               * pwlv(-1, 2, 1) 
+               * pwlv(-1, 2, 1)) , 
+        const(1) )
+
+function norm(sound)
+  return snd-normalize(sound) * .5
+
+set dist-table =
+    seq( (1.5 * pwlv(-1, 2, 1) - 0.5
+               * pwlv(-1, 2, 1)
+               * pwlv(-1, 2, 1)
+               * pwlv(-1, 2, 1)),
+        const(1) )
+
+define function soft-clip(sound)
+begin
+  return .96 * shape( 1.04166667 *  clip(sound, 1) , dist-table, 1 )
+end
+
+define function clipping-circuit(sound, d)
+begin
+  return clip(soft-clip(hp(sound,720.484) * (1.06383 * d + 11.851)) + sound, 1.4) * .5
+end
+
+define function overdrive(s,d)
+begin
+  return lp(clipping-circuit(s,d), 723.431)
+end
+ 
+set clean = norm( s-read("power-chords.wav") )
+set od0   = overdrive(clean, 0)
+set od50  = overdrive(clean, 50)
+set od100 = overdrive(clean, 100)
+play( seq(clean, od0, od50, od100) )
+
+set clean = norm( s-read("clean-guitar.wav") )
+set od0   = overdrive(clean, 0)
+set od50  = overdrive(clean, 50)
+set od100 = overdrive(clean, 100)
+
+;play( seq(clean, od0, od50, od100) )
+
+;play norm(s-read("clean-guitar.wav"))
+;play overdrive(norm( s-read("clean-guitar.wav") ), .01)  
