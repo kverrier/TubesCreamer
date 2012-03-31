@@ -10,7 +10,7 @@ sound of the [Ibanez Tube Screamer](http://en.wikipedia.org/wiki/Ibanez_Tube_Scr
 ### [Audio Demo](http://soundcloud.com/k_v/tubescreamer-demo)
 
 ## Installation
-In order to install the plug-in, download the [nyquist file](https://github.com/downloads/kverrier/TubesCreamer/tubescreamer.ny). Copy
+In order to install the plugin, download the [plugin file](https://github.com/downloads/kverrier/TubesCreamer/tubescreamer.ny). Copy
 the file into the audacity plugin folder located in the location of the
 audacity installation. Next, start up audacity and go the the "Effects"
 menu in the top bar to make sure that "TubeScreamer" appears. 
