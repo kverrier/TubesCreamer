@@ -1,4 +1,4 @@
-# TubesCreamer Audacity Overdrive Plugin
+# TubesCreamer
 
 ---
 
