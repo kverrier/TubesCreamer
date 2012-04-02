@@ -24,8 +24,8 @@ of the Audacity installation. Next, start up Audacity and go to the
 ## Use
 Select the desired audio region to apply the effect and go to the
 "Effects" menu in the top bar. A pop-up box will appear where you can
-choose desired amount of gain (0 to 100). After the desired amount of
-drive is chosen, press OK. The selected audio will now be processed
-through the TubesCreamer plug-in.
+choose desired amount of drive (0 to 100). Once the setting is chosen,
+press OK. The selected audio will now be processed through the
+TubesCreamer plug-in.
 
-![alt](http://i.imgur.com/JU9L2.png)
+![alt](http://imgur.com/YIWab)
