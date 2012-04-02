@@ -28,4 +28,4 @@ choose desired amount of drive (0 to 100). Once the setting is chosen,
 press OK. The selected audio will now be processed through the
 TubesCreamer plug-in.
 
-![alt](http://i.imgur.com/YIWab.png)
+![center](http://i.imgur.com/YIWab.png)
